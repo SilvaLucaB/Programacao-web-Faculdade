@@ -1,5 +1,33 @@
-Aula 2 - 
-Exercícios Base (imagens e textos disponíveis no BlackBoard)
+Aula 2 - Criando formulários, adicionando imagens, parágrafos, e quebras de linhas. 
+
+<!-- Criando um formulário -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+ <form action="pagina.php" method="post" >
+    <label for="masulino">Masculino</label>
+    <input type="radio" name="sexo" id="masculino" value="m">
+    <br>
+    <label for="feminino"> Feminino</label>
+    <input type="radio" name="sexo" id="feminino" value="f">
+    <br>
+    <label for="nome">Nome</label>
+    <input type="type" name="nome" id="nome" required autofocus> 
+    <!-- Required fará com que seja necessário algum dado nesse campo-->
+    <!--AUTOFOCUS fará com que a caixa de texto já apareca com o cursor
+    piscando -->
+    <br>
+    <br> <input type="submit" value="enviar">
+ </form>   
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------
+Exercícios Propostos: (imagens e textos disponíveis no BlackBoard)
 
 Exercício 1 :
 
@@ -186,7 +214,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+--------------------------------------------------------------------------------------------------------------------------------
 Exercício 2: 
 <!DOCTYPE html>
 <html lang="pt-br">
