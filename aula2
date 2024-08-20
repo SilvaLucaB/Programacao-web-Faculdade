@@ -1,5 +1,8 @@
 Aula 2 - Criando formulários, adicionando imagens, parágrafos, e quebras de linhas. 
 
+<!--Para chamar uma página em outra usar o HREF e não o
+caminho absoluto (link que aparece no topo da tela)-->
+
 <!-- Criando um formulário -->
 <!DOCTYPE html>
 <html lang="pt-br">
