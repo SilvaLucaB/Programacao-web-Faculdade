@@ -1,0 +1,84 @@
+26/08/2024 - Aula sobre tipos de CSS (inline, incorporado e externo)
+
+HTML : 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula3.CSS</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <p>Corpo do HTML</p>
+    <section>
+        <aside>
+            <h1 id="idTitulo">Titulo 1</h1>
+            <p class="formatarTitulo">Paragrafo do titulo 1</p>
+        </aside>
+        <article>
+            <h1 id="idTitulo2">Titulo 1</h1>
+            <p class="formatarTitulo">Paragrafo do article 1</p>
+            <p>Paragrafo article</p>
+        </article>
+        <div>
+            <p>Paragrafo dentro da DIV</p>
+        </div>
+    </section>
+</body>
+
+</html> 
+
+CSS: 
+
+body {
+    background-color: lightblue;
+
+}
+
+div>p {
+    color: blue;
+}
+
+/*Só oq tiver detro da DIV*/
+
+p {
+    color: red;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formatarTitulo {
+    /* Classe começa com ponto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rebeccapurple;
+}
+
+/*Classes podem ser reaproveitadas em varios elementos*/
+
+#idTitulo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+/*É um IDENTIFICADOR, ÚNICO! se precisar colocar em outro 
+título, criar outro id : */
+
+#idTitulo2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+}
+
+div {
+    background-color: aqua;
+    border: 1px solid;
+}
+
+/*DIVS são blocos*/ 
+
